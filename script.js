@@ -1,4 +1,4 @@
-var newText = 'NewText'
-document.getElementById('ok').innerHTML = newText
-var newText = 'Ying'
-document.getElementById('no').innerHTML = newText
+document.getElementById('ok').addEventListener('click', function (e) {
+    alert('ok is click')
+}
+)
